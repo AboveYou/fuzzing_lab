@@ -40,7 +40,7 @@ export AFL_CUSTOM_MUTATOR_ONLY=1
 Um die selber geschriebenen Mutator zu finden muss die Directory zu diesen in die Python Path Variable hinzugefügt werden und das Modul für den Fuzzingvorgang gesetzt werden.
 ```bash
 # update the python path
-export PYTHONPATH="/fuzz/mutators/"
+export PYTHONPATH="/fuzz/mutator/"
 
 # select the module you want to use (the name of the script without .py)
 export AFL_PYTHON_MODULE="mutator_v1"
